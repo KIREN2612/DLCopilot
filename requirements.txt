@@ -1,0 +1,17 @@
+# Core dependencies
+torch>=2.0.0
+matplotlib>=3.7.0
+numpy>=1.21.0
+
+# Testing
+pytest>=7.0.0
+
+# Optional: Development tools (uncomment if needed)
+# black>=23.0.0
+# isort>=5.10.0
+
+# ⚠️ For GPU users:
+# If you have a CUDA-enabled GPU, install the appropriate PyTorch version:
+# Visit https://pytorch.org/get-started/locally/ and run the command shown for your system
+# Example (for CUDA 11.8):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
